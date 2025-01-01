@@ -8,96 +8,45 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header header-mobile ">
-            <div class="container">
+        <div class="menu">
+            <div class="header">
                 <div class="header__row">
-                    <div class="burger-btn">
-                        <span></span>
-                    </div>
-                    <a href="#"><img src="./img/icon/logo.svg" alt="logo"></a>
-                    <div class="header__line"></div>
-                    <div class="header__btns-row">
-                        <button class="header__button" type="button" ><img src="./img/icon/instruments.svg" alt="оставить заявку"></button>
-                        <button class="header__button" type="button" ><img src="./img/icon/search.svg" alt="оставить заявку"></button>
-
-                    </div>
+                    <button type="button" class="header__burger-btn"> <span></span></button>
+                    <a href="#"><img src="./img/icon/logo.svg" alt="logo" class="header__img"></a>
                 </div>
+                <button class="header__search-btn"><img src="./img/icon/search-icon-white.svg" alt="search"></button>
             </div>
-        </header>
-        <header class="header header-laptop ">
-            <div class="container">
-                <div class="header__row">
-                    <div class="header-laptop__wrapper">
-                        <div class="burger-btn">
-                            <span></span>
-                        </div>
-                        <div class="header__line"></div>
-    
-                        <a href="#"><img src="./img/icon/logo.svg" alt="logo"></a>
-                    </div>
 
+            <nav class="nav">
+                <ul class="nav__list list" >
+                    <li class="list__item list__item-active"><a href="#">Ремонт техники</a></li>
+                    <li class="list__item"><a href="#">Услуги и сервисы</a></li>
+                    <li class="list__item"><a href="#">Корпоративным клиентам</a></li>
+                    <li class="list__item"><a href="#">Продавцам техники</a></li>
+                    <li class="list__item"><a href="#">Партнерам</a></li>
+                    <li class="list__item"><a href="#">Наши сервисные центры</a></li>
+                    <li class="list__item"><a href="#">Производителям</a></li>
+                    <li class="list__item"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
 
-                    <div class="header__btns-row">
-                        <button class="header__button" type="button" ><img src="./img/icon/phone.svg" alt="оставить заявку"></button>
-                        <button class="header__button" type="button" ><img src="./img/icon/message.svg" alt="оставить заявку"></button>
-                        <button class="header__button" type="button" ><img src="./img/icon/men.svg" alt="оставить заявку"></button>
-
-                        <div class="header__line"></div>
-
-                        <button class="header__button" type="button" ><img src="./img/icon/instruments.svg" alt="оставить заявку"></button>
-                        <button class="header__button" type="button" ><img src="./img/icon/search.svg" alt="оставить заявку"></button>
-
-                    </div>
+            <footer class="menu__footer footer">
+                <div class="footer__btn-row">
+                    <button class="footer__btn-item"><img src="./img/icon/phone.svg" alt="phone"></button>
+                    <button class="footer__btn-item"><img src="./img/icon/message.svg" alt="message"></button>
+                    <button class="footer__btn-item"><img src="./img/icon/men.svg" alt="men"></button>
                 </div>
-            </div>
-        </header>
-        <header class="header header-dextop">
-            <div class="container">
-                <div class="header__row">
-                   
-                    <div class="header__btns-row btns-row ">
-                        <div class="btns-row__item">
-                            <span>Оставить заявку</span>
-                            <button class="header__button" type="button" ><img src="./img/icon/instruments.svg" alt="оставить заявку"></button>
-                        </div>
-                        <div class="btns-row__item">
-                            <span>Статус ремонта</span>
-                            <button class="header__button" type="button" ><img src="./img/icon/search.svg" alt="поиск"></button>
-                        </div>
-
-
-                    </div>
+                <div class="footer__mail"><span>mail@cps.com</span></div>
+                <div class="footer__phone"><span>8 800 890 8900</span></div>
+                <div class="footer__lang-row lang-row">
+                    <button class="lang-row__item lang-row__item-active ">RU</button>
+                    <button class="lang-row__item">EN</button>
+                    <button class="lang-row__item">CH</button>
                 </div>
-            </div>
-        </header>
+            </footer>
 
-        <section class="services">
-            <div class="container">
-                <h2 class="services__title">Услуги и сервисы</h2>
-                <div class="services__slider">
-                    <div class="services__row ">
-                        <button class="services__item item-active">Ремонтируемые бренды</button>
-                        <button class="services__item">Ремонтируемые устройства</button>
-                        <button class="services__item">Цены на услуги</button>
-                        <button class="services__item">Адреса сервисных центров</button>
-                        <button class="services__item">Специальные цены</button>
-                        <button class="services__item">Отзывы</button>
-                    </div>
- 
-                </div>
-                <div class="services__description description">
-                    <div class="description___row">
-                        <div class="description__text">
-                            <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
 
-                               <p> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                                <button type="button" class="description__button">Читать далее</button>
-                        </div>
-                        <img src="./img/img.png" alt="cps фото" class="description__img">
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
 
     </div>
 </body>
